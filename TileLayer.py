@@ -35,7 +35,7 @@ class Untile2D(layers.Layer):
         self.channels = input_shape[4]
                            
     def call(self, tiles):
-        images = reshape(tiles, (-1, self.n, self.n, self.pw, self.ph, self.channels))
+        images = reshape(tiles, (-1, self.n, self.n, self.tw, self.th, self.channels))
         images = transpose(images, [0, 1, 3, 2, 4, 5])
         images = reshape(images, (-1, self.iw, self.ih, self.channels))
         return images
