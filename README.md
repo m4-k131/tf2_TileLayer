@@ -8,7 +8,7 @@ Reshapes a Tensor with shape [Batch_size, h, w, channels] into a Tensor with sha
 
 Untile2D:
 
-Reshapes a Tensor with shape [Batch_size, n*n, h, w, channels] into a Tensor with shape [Batch_size, h*n, w*n, channels]
+Reshapes a Tensor with shape [Batch_size, n* n, h, w, channels] into a Tensor with shape [Batch_size, h* n, w* n, channels]
 
 Arguments:
 
