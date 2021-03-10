@@ -12,4 +12,4 @@ Reshapes a Tensor with shape [Batch_size, n* n, h, w, channels] into a Tensor wi
 
 Arguments:
 
-n: Number of vertial and horizontal tiles. Input.shape[1] and Input.shape[2] (height & width) must be divisible by n to work proberly. 
+n: Number of vertical and horizontal tiles. Input.shape[1] and Input.shape[2] (height & width) must be divisible by n to work proberly. 
